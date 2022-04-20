@@ -3,7 +3,7 @@ const Sequelize = require('sequelize');
 const sequelize = new Sequelize('shop_app', 'root', '', {
   dialect: 'mysql',
   host: 'localhost',
-  port:3306,
+  port:3306
 });
 
 module.exports = sequelize;
